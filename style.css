@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    height: 5em;
+}
+
+.nav div {
+    width: 32em;
+    margin-left: 1em;
+}
+
+.nav div p:nth-child(3){
+    font-weight: bold;
+}
+
+.nav button {
+    background-color: #16A2B8;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border: 0px;
+    margin-right: 1em;
+    /* border-radius: 15px; */
+}
+
+.main {
+    /* padding: 1em; */
+    /* height: 700px; */
+}
+
+.profile {
+    /* background-color: green; */
+    /* text-align: center; */
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+    /* margin-right: 1em; */
+}
+
+.user-card {
+    border: 1em solid #16A2B8;
+    height: 400px;
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+.connections {
+    /* background-color: blue; */
+    /* text-align: center; */
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.col-2 {
+    flex: 2;
+}
