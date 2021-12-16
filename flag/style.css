@@ -1,0 +1,26 @@
+.flag {
+    width: 200px;
+    display: flex;
+}
+
+
+.green {
+    background-color: #009344;
+    width: 30%;
+    height: 100px;
+    /* display: inline-block; */
+}
+
+.white {
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 100px;
+    /* display: inline-block; */
+}
+
+.red {
+    background-color: #CF2734;
+    width: 30%;
+    height: 100px;
+    /* display: inline-block; */
+}
